@@ -5,7 +5,7 @@ function zoom() {
     document.body.style.zoom = "300%"
 }
     function logo() {
-    var logo1=$('<img class="logostyle" src="content/img/saviologo.jpg"/>');
+    var logo1=$('<img class="logostyle" src="https://cloud.githubusercontent.com/assets/10212404/7468980/5699ff6e-f2c3-11e4-952a-12be7f161b3f.jpg"/>');
     //var load = $("<div class='loading'></div>");
     //var name = $("<h2>Loading....</h2>");
     //load.append(name);
