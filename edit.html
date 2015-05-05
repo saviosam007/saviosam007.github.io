@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Login page</title>
+    <link href="content/css/savio_style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div id="templatemo_menu_panel">
+    <ul>
+        <li><a href="Index.html"><button class="buttonstyle">HOME</button></a>
+        </li>
+        <li><a href="menu.html"><button class="buttonstyle">MENU</button></a></li>
+        <li><a href="seating.html"><button class="buttonstyle">View Seating</button></a></li>
+        <li><a href="reservation.html"><button class="buttonstyle">View Reservation</button></a>
+    </ul>
+</div> <!-- end of menu -->
+<form method="post" class="login">
+    <p>
+        <label>Code:</label>
+        <input type="text" name="confirm" id="confirm" placeholder="#BID123" required>
+    </p>
+    <p class="login-submit">
+        <button type="submit" class="btn" onclick="return codeForm()">Submit</button>
+    </p>
+
+</form>
+<script src="content/js/testing.js"></script>
+</body>
+</html>
